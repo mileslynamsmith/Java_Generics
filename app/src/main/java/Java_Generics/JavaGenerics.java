@@ -1,3 +1,5 @@
+package Java_Generics;
+
 class JavaGenerics{
 
     public static void main (String args []){

@@ -1,3 +1,5 @@
+package Java_Generics;
+
 class MyClass<T> {
     T object;
     public MyClass (T object){
@@ -7,5 +9,11 @@ class MyClass<T> {
     public void print(){
         System.out.println(object);
     }
+    
+    @Override
+    public String toString(){
+        return object.toString();
+    }
+
 
 }
